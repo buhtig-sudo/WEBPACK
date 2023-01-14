@@ -1,6 +1,6 @@
-# fly.toml file generated for appa2 on 2023-01-14T10:34:41Z
+# fly.toml file generated for appa3 on 2023-01-14T11:22:12Z
 
-app = "appa2"
+app = "appa3"
 kill_signal = "SIGINT"
 kill_timeout = 5
 [deploy]
@@ -10,6 +10,7 @@ kill_timeout = 5
   app = "node app.js"
 
 [env]
+  PORT = "8080"
 
 [experimental]
   auto_rollback = true
