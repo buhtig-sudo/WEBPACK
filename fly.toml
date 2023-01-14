@@ -7,7 +7,7 @@ kill_timeout = 5
   release_command = "npm run buildProd"
 
 [processes]
-  app = "node ./dist/server.js"
+  app = "node ./src/server/server-prod.js"
 
 [env]
   PORT = "8080"
