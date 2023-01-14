@@ -12,5 +12,4 @@ jobs:
     steps:
       - name: Say hello
         run: |
-          cd ../../
-          npm run build
+         echo "hello"
