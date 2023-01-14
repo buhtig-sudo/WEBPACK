@@ -13,9 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "engines": {
     "node": ">=4.3.2"
   },
@@ -25,7 +22,8 @@
       "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
     }
   },
-  "devDependencies": {
+  "dependencies": {
+    "express": "^4.17.1",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-core": "^7.0.0-bridge.0",
