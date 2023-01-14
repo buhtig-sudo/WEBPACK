@@ -22,7 +22,7 @@ ENV NODE_ENV production
 
 COPY . .
 
-RUN yarn install && yarn run build
+RUN npm i && npm run build
 FROM debian:bullseye
 
 LABEL fly_launch_runtime="nodejs"
@@ -34,4 +34,4 @@ WORKDIR /app
 ENV NODE_ENV production
 ENV PATH /root/.volta/bin:$PATH
 
-CMD [ "yarn", "run", "start","webpack" ]
+CMD [ "yarn", "run", "start"]
